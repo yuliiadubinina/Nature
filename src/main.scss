@@ -1,13 +1,17 @@
-@import "normalize";
 @import "./assets/scss/vars";
 @import "./assets/scss/mixins";
+@import "./assets/scss/animations";
 @import "./assets/scss/default";
-@import "./components/header/header";
-@import "./components/sidebar/sidebar";
-@import "./components/galery/galery";
-@import "./components/overview/overview";
-@import "./components/detail/detail";
-@import "./components/cta/cta";
+@import "./assets/scss/grid";
+@import "./assets/scss/utils";
 
+@import "./components/navigation/navigation";
+@import "./components/layout/header/header";
+@import "./components/layout/footer/footer";
 
-
+@import "./components/about/about";
+@import "./components/features/features";
+@import "components/tours/tours";
+@import "./components/stories/stories";
+@import "./components/book/book";
+@import "components/popup/popup";
